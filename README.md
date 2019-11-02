@@ -58,6 +58,8 @@ with navigation links to About and Login.
 A new user can be registered by going to 'Login' page and then 
 following 'Register Here' link.
 
+![GitHub Logo](/public/images/UserRegistration.png)
+
 ## User Logon 
 
 * To Login, go to the login page, enter user email address and password and click 'Sign In'.

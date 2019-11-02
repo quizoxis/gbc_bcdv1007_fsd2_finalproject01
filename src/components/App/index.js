@@ -12,6 +12,7 @@ import AccountPage from '../Account';
 
 import * as ROUTES from '../../constants/routes';
 import { withFirebase } from '../Firebase';
+import AboutPage from "../About";
 
 class App extends Component {
     constructor(props) {
@@ -44,6 +45,7 @@ class App extends Component {
                     <Route path={ROUTES.USER_LOGIN} component={UserLoginPage} />
                     <Route path={ROUTES.HOME} component={HomePage} />
                     <Route path={ROUTES.ACCOUNT} component={AccountPage} />
+                    <Route path={ROUTES.ABOUT} component={AboutPage} />
                 </div>
             </Router>
         );

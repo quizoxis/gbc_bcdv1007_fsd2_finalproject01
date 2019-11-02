@@ -18,7 +18,7 @@ This app demonstrate a simple user authentication features against a firebase ba
 * User registration.
 * User login & Logout.
 * Based on use authentication status show different content and navigational links.
-* Firebase authentication method 'Email/Password' is used.
+* Firebase authentication method `Email/Password` is used.
  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -56,13 +56,16 @@ with navigation links to About and Login.
 ## User Registration
 
 A new user can be registered by going to 'Login' page and then 
-following 'Register Here' link.
+following `Register Here` link.
 
 ![User Registration image](/public/images/UserRegistration.png "User Registration Page")
 
-## User Logon 
+## User Logon Process
 
-* To Login, go to the login page, enter user email address and password and click 'Sign In'.
+* To Login, go to the login page, enter user email address and password and click `Sign In`.
+* After a successful logon user is redirected to `Home` page.
+* Nav links at the top of the page now shows additional links for `Account` and a `Logout` button. 
+
 
 ![User Login image](/public/images/UserLogin.png "User Login Page")
 
